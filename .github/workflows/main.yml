@@ -10,3 +10,7 @@ jobs:
     steps:
       - name: "testing githup actions"
         run: pwd
+
+      - uses: actions/checkout@v3
+      - name: "printing folder"
+        run: ls
